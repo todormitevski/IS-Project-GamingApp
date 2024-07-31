@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingApp.Web", "GamingApp.Web\GamingApp.Web.csproj", "{35A3E74F-910A-4ACA-BBDE-04818F35FC15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26931E26-E97B-4F1F-B7A1-33C01BCD0496} = {26931E26-E97B-4F1F-B7A1-33C01BCD0496}
+		{2C93822E-2D07-4667-93CA-26A12E62385D} = {2C93822E-2D07-4667-93CA-26A12E62385D}
+		{68E1A728-6995-4355-8689-C65C66D976B0} = {68E1A728-6995-4355-8689-C65C66D976B0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingApp.Domain", "GamingApp.Domain\GamingApp.Domain.csproj", "{26931E26-E97B-4F1F-B7A1-33C01BCD0496}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingApp.Repository", "GamingApp.Repository\GamingApp.Repository.csproj", "{68E1A728-6995-4355-8689-C65C66D976B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26931E26-E97B-4F1F-B7A1-33C01BCD0496} = {26931E26-E97B-4F1F-B7A1-33C01BCD0496}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingApp.Service", "GamingApp.Service\GamingApp.Service.csproj", "{2C93822E-2D07-4667-93CA-26A12E62385D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26931E26-E97B-4F1F-B7A1-33C01BCD0496} = {26931E26-E97B-4F1F-B7A1-33C01BCD0496}
+		{68E1A728-6995-4355-8689-C65C66D976B0} = {68E1A728-6995-4355-8689-C65C66D976B0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
